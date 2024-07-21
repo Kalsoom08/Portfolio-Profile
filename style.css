@@ -90,9 +90,10 @@ width: 350px;
 /* For Mobile */
  @media(max-width : 420px){
 .portfolio-body{
-  margin:20px;
+  justify-content: center;
   height: 100rem;
-  width: 90%;
+  width:95vw;
+  margin: 0px;
 
   }
 
@@ -107,14 +108,17 @@ width: 350px;
 .introduction{
     margin-top: 50px;
     margin-left:20px ;
+align-content: flex-start;
 }
 .introduction h1{
   font-size:medium;
   line-height: 22px;  
+  margin-top: 20px;
 }
 .introduction img{
  width: 100px;
  height: 100px;
+
 }
 
 /* About Me */
