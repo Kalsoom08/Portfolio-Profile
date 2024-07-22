@@ -12,7 +12,7 @@ body{
 .portfolio-body{
 background-color: rgb(195, 220, 225) ;
 margin:30px;
-height: 100rem;
+height: 200%;
 width: 94vw;
 border-radius: 10px;
 }
@@ -59,7 +59,7 @@ width: 350px;
 .CV{
   display: flex;
   justify-content: center;
-  height: 12%;
+  height: 8%;
   align-items: center;
 }
 .CV a{
@@ -82,7 +82,7 @@ width: 350px;
   margin-right: 10%;
   width: 75vw;
   height: 30%;
-  padding-top:5% ;
+  padding-top:03% ;
 
 }
 .about-me h1{
@@ -98,13 +98,13 @@ width: 350px;
 
 /* Skills */
 .progress-bar{
-  margin-top: -200px;
+  margin-top: -35%;
   padding-left: 25%;
 }
 .progress-bar h1{
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 20px;
-    margin-left:-178px;
+    margin-left:-20%;
 }
 .progress-bar h4{
   padding: 10px;
@@ -164,6 +164,44 @@ display: block;
   padding-left: 05%;
 }
 
+/* Project */
+.projects{
+margin-top: 120px;
+}
+.projects h1{
+  font-family: Arial, Helvetica, sans-serif;
+    margin-left:11%; 
+}
+.card-group{
+  display: flex;
+  justify-content: space-evenly;
+ 
+  margin-top: 70px;
+ 
+}
+
+.projects .card1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(./images/P1.jpg);
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projects .card2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(./images/P2.jpg);
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projects .card3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(./images/P3.png);
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 
 
@@ -182,7 +220,7 @@ display: block;
 
   /* CV */
   .CV{
-    height: 8%;
+    height: 7%;
     }
    .CV a{
      height: 09px;
@@ -198,12 +236,68 @@ display: block;
     padding-bottom: 01%;
   }
   .about-me p{
-   font-size:2vh;
-    line-height: 12px;
+   font-size:2.5vh;
+    line-height: 15px;
     text-align: justify;
     margin-top: 0px; 
     margin-right: 5%;
   }
+
+  /* Skills */
+  .progress-bar{
+    margin-top: -420px;
+    padding-left: 20%;
+  }
+  .progress-bar h1{
+    font-size: 2vh;
+    padding-bottom: 10px;
+    margin-left:-13%;
+  }
+  .progress-bar h4{
+    padding: 05px;
+    font-size: 1.5vh;
+    }
+
+  .inner-div1{
+    font-size: 1.5vh;
+    padding-top: 0px;
+    height: 10px;
+    padding-left: 05%;
+  }
+  
+  .inner-div2{
+    font-size: 1.5vh;
+    padding-top: 0px;
+    height: 10px;
+    padding-left: 05%;
+  
+  }
+  .inner-div3{
+    font-size: 1.5vh;
+    padding-top: 0px;
+    height: 10px;
+    padding-left: 05%;
+  
+  }
+  .inner-div4{
+    font-size: 1.5vh;
+    padding-top: 0px;
+    height:10px;
+    padding-left: 05%;
+  }
+  .inner-div5{
+    font-size: 1.5vh;
+    padding-top: 0px;
+    height:10px;
+    padding-left: 05%;
+  }
+  .inner-div6{
+    font-size: 1.5vh;
+    padding-top: 0px;
+    height:10px;
+    padding-left: 05%;
+  }
+  
 }
 
 
@@ -294,11 +388,6 @@ align-content: flex-start;
   padding: 05px;
   font-size: 1vh;
   }
-
-/* .outer-div{
-  width: 65%;
-  height: 10px;
-} */
 .inner-div1{
   font-size: 1vh;
   padding-top: 0px;
@@ -339,4 +428,22 @@ align-content: flex-start;
   padding-left: 05%;
 }
 
-} 
+/* Projects */
+.projects{
+  margin-top: 50px;
+  }
+  .projects h1{
+    font-size: 1.5vh; 
+  }
+  .card-group{
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .card-group .card1{
+  margin-bottom: 30px;
+}
+.card-group .card2{
+  margin-bottom: 30px;
+}
+}
