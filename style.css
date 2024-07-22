@@ -349,7 +349,7 @@ align-content: flex-start;
 .CV a{
   height: 5px;
   width: 70px;
-  font-size: 1vh;
+  font-size: 1vw;
   padding:8px;
   font-weight: 200;
 }
@@ -392,6 +392,7 @@ align-content: flex-start;
   font-size: 1vh;
   padding-top: 0px;
   height: 09px;
+  padding-bottom: 2px;
   padding-left: 05%;
 }
 
@@ -399,6 +400,7 @@ align-content: flex-start;
   font-size: 1vh;
   padding-top: 0px;
   height: 09px;
+  padding-bottom: 2px;
   padding-left: 05%;
 
 }
@@ -406,6 +408,7 @@ align-content: flex-start;
   font-size: 1vh;
   padding-top: 0px;
   height: 09px;
+  padding-bottom: 2px;
   padding-left: 05%;
 
 }
@@ -413,18 +416,21 @@ align-content: flex-start;
   font-size: 1vh;
   padding-top: 0px;
   height: 9px;
+  padding-bottom: 2px;
   padding-left: 05%;
 }
 .inner-div5{
   font-size: 1vh;
   padding-top: 0px;
   height: 9px;
+  padding-bottom: 2px;
   padding-left: 05%;
 }
 .inner-div6{
   font-size: 1vh;
   padding-top: 0px;
   height: 9px;
+  padding-bottom: 2px;
   padding-left: 05%;
 }
 
