@@ -144,7 +144,7 @@ align-content: flex-start;
   margin-top: 10px;
 }
 .introduction img{
- width: 100px;
+ width: 110px;
  height: 100px;
 
 }
@@ -157,7 +157,7 @@ align-content: flex-start;
 .CV a{
   height: 09px;
   width: 80px;
-  font-size: 2vh;
+  font-size: 1.5vh;
   padding:8px;
   font-weight: 200;
 }
