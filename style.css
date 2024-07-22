@@ -7,6 +7,7 @@ body{
   color: rgb(38, 94, 139);
   display: grid;
   justify-content: center;
+  
 }
 .portfolio-body{
 background-color: rgb(195, 220, 225) ;
@@ -14,8 +15,9 @@ margin:30px;
 height: 100rem;
 width: 94vw;
 border-radius: 10px;
-
 }
+
+/* Nav */
 nav{
   background-color: rgb(38, 94, 139);
   border-radius: 10px;
@@ -42,6 +44,7 @@ nav a{
   font-family: Arial, Helvetica, sans-serif;
 }
 .introduction h1{
+  padding-top: 20px;
   font-size: 50px;
   line-height: 70px;
  font-weight: 700;
@@ -52,8 +55,26 @@ nav a{
 width: 350px;
 }
 
+/* CV */
+.CV{
+  display: flex;
+  justify-content: center;
+  height: 12%;
+  align-items: center;
+}
+.CV a{
+  height: 20px;
+  width: 125px;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid rgba(126, 203, 206, 0.792);
+  background-color: rgba(126, 203, 206, 0.792);
+  color: rgb(38, 94, 139);
+  font-weight: 200;
+}
 /* About Me */ 
-.about-me{
+/* .about-me{
   display: grid;
   justify-content: center;
   align-content: center;
@@ -72,11 +93,13 @@ width: 350px;
   line-height: 30px;
   text-align: justify;
   margin-top: 20px; 
-}
+} */
 
 
 /*Small Screns  */
 @media( max-width : 990px){
+
+  /* intro */
   .introduction h1{
     font-size: 30px;
     line-height: 50px;
@@ -89,6 +112,7 @@ width: 350px;
 
 /* For Mobile */
  @media(max-width : 420px){
+ 
 .portfolio-body{
   justify-content: center;
   height: 100rem;
@@ -98,6 +122,10 @@ width: 350px;
   }
 
 /* Nav */
+nav{
+  height: 4vh;
+  padding-top: 5px;
+}
   nav a{
     font-size:small;
     padding-left: 10px;
@@ -113,7 +141,7 @@ align-content: flex-start;
 .introduction h1{
   font-size:medium;
   line-height: 22px;  
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .introduction img{
  width: 100px;
@@ -121,8 +149,21 @@ align-content: flex-start;
 
 }
 
+/* Cv */
+.CV{
+ height: 8%;
+  
+}
+.CV a{
+  height: 09px;
+  width: 80px;
+  font-size: 2vh;
+  padding:8px;
+  font-weight: 200;
+}
+
 /* About Me */
-.about-me{
+/* .about-me{
   display:grid;
   justify-content: flex-start;
   align-content: flex-start;
@@ -136,7 +177,7 @@ align-content: flex-start;
   text-align: justify;
   margin-top: 0px; 
   margin-right: 5%;
-}
+} */
 
 } 
 
