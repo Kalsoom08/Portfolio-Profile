@@ -74,14 +74,15 @@ width: 350px;
   font-weight: 200;
 }
 /* About Me */ 
-/* .about-me{
+.about-me{
   display: grid;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
   margin-left: 10%;
   margin-right: 10%;
   width: 75vw;
   height: 30%;
+  padding-top:5% ;
 
 }
 .about-me h1{
@@ -93,7 +94,7 @@ width: 350px;
   line-height: 30px;
   text-align: justify;
   margin-top: 20px; 
-} */
+}
 
 
 /*Small Screns  */
@@ -107,6 +108,31 @@ width: 350px;
   }
   .introduction img{
   width: 250px;
+  }
+
+  /* CV */
+  .CV{
+    height: 8%;
+    }
+   .CV a{
+     height: 09px;
+     width: 90px;
+     font-size: 2vh;
+     padding:8px;
+     font-weight: 200;
+   }
+
+   /* About */
+   .about-me h1{
+    font-size: 2vh;
+    padding-bottom: 01%;
+  }
+  .about-me p{
+   font-size:2vh;
+    line-height: 12px;
+    text-align: justify;
+    margin-top: 0px; 
+    margin-right: 5%;
   }
 }
 
@@ -163,21 +189,24 @@ align-content: flex-start;
 }
 
 /* About Me */
-/* .about-me{
+.about-me{
   display:grid;
-  justify-content: flex-start;
-  align-content: flex-start;
+  justify-content: center;
+  align-content:start;
+  padding-top: 0;
   }
 .about-me h1{
-  font-size: 2vh;
+  font-size: 1.5vh;
+
+  padding-bottom: 03%;
 }
 .about-me p{
- font-size:1.5vh;
-  line-height: 10px;
+ font-size:1vh;
+  line-height: 08px;
   text-align: justify;
   margin-top: 0px; 
   margin-right: 5%;
-} */
+}
 
 } 
 
