@@ -423,13 +423,14 @@ align-content: flex-start;
 
 /* Cv */
 .CV{
- height: 8%;
+ height: 5%;
   
 }
 .CV a{
   height: 5px;
-  width: 60px;
+  width: 40px;
   font-size: 1.5vw;
+  font-weight: bold;
   padding:8px;
   font-weight: 200;
 }
@@ -456,7 +457,7 @@ align-content: flex-start;
 
 /* Skills */
 .progress-bar{
-  margin-top: -370px;
+  margin-top: -630px;
   padding-left: 20%;
 }
 .progress-bar h1{
@@ -528,7 +529,7 @@ align-content: flex-start;
   }
   .projects .card{
     width: 300px;
-    height: 260px;
+    height: 280px;
   margin-bottom: 20px;
   }
   .projects .card img{
@@ -562,7 +563,7 @@ align-content: flex-start;
     }
     .contact h1{
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 2vh;
+      font-size: 1.5vh;
       position: relative;
       top: 60px;
       left: 40px;
@@ -577,7 +578,7 @@ align-content: flex-start;
       padding: 05px;
     }
     footer{
-      margin-top: 60px;
+      margin-top: 30px;
       display: flex;
       justify-content: center;
     }
